@@ -6,12 +6,17 @@
  */
 int main(void)
 {
-	int ch;
+	char ch;
+	int n;
 
-	for (ch = 48; ch <= 57; ch++)
+	for (n = 48; n <= 57; n++)
+	{
+	putchar(n);
+}
+	for (ch = 'a'; ch <= 'f'; ch++)
 {
 	putchar(ch);
 }
-	putchar(10); /* this is an ascii code for new line*/
+	putchar(10);
 	return (0);
 }
