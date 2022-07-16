@@ -4,10 +4,10 @@
  * reset_to_98 -> used to reset to 98.
  * @n: parameter.
  */
-void reset_to_98(int *n)
+void reset_to_98(int )
 {
 	int p = 402;
-	*n = &p;
+	int *n = &p;
 
 	*n = 98;
 if (p / 10 > 1)
