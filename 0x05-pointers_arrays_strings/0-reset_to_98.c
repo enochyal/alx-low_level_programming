@@ -6,13 +6,13 @@
  */
 void reset_to_98(int *n)
 {
-	n = 402;
-	int *p = &n;
+	int p = 402;
+	*n = &p;
 
-	*p = 98;
-if (n / 10 > 1)
+	*n = 98;
+if (p / 10 > 1)
 {
-	_putchar(n / 10 + '0');
-	_putchar(n % 10 + '0');
+	_putchar(p / 10 + '0');
+	_putchar(p % 10 + '0');
 }
 }
