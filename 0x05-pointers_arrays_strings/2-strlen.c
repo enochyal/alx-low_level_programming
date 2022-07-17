@@ -1,6 +1,6 @@
 #include "main.h"
 
-/** 
+/**
  * _strlen - count the number of strings presents.
  * @s: parameter.
  * Return: len.
