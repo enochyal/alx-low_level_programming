@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
   * printerrors - just helping me print errors
   * @message: the thing to print

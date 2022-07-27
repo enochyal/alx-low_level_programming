@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <elf.h>
 
 void ptitle(char *title);
