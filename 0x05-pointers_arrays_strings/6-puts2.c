@@ -3,7 +3,7 @@
  * puts2 - > prints every string. * @str: parameter.
  * @str: parameter.
  */
-void puts(char *str)
+void puts2(char *str)
 {
 	int i, l;
 
